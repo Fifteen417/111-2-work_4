@@ -27,16 +27,18 @@ namespace work_4
 
         private void btn_0_Click(object sender, RoutedEventArgs e)
         {
+            if (txt_cal.Text == "0")
+            {
+                txt_cal.Text = "";
+            }
             txt_cal.Text = txt_cal.Text + "0";
         }
 
         private void btn_1_Click(object sender, RoutedEventArgs e)
         {
             if (txt_cal.Text == "0") 
-            {
-                txt_cal.Text = "";
-            }
-            txt_cal.Text = txt_cal.Text + "1";
+                txt_cal.Text = ""; //只有一行可以省略大括號
+            txt_cal.Text += "1"; //簡化版本
         }
     }
 }
