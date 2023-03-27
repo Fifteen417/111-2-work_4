@@ -96,5 +96,10 @@ namespace work_4
                 txt_cal.Text = ""; //只有一行可以省略大括號
             txt_cal.Text += "9";
         }
+
+        private void btn_AC_Click(object sender, RoutedEventArgs e)
+        {
+            txt_cal.Text = "0";
+        }
     }
 }
