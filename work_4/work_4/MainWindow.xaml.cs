@@ -158,9 +158,18 @@ namespace work_4
             operators = -1;
         }
 
+        private void btn_dot_Click(object sender, RoutedEventArgs e)
+        {
+            if (txt_cal.Text.IndexOf(".") == -1) // 確認文字框中沒有小數點
+                txt_cal.Text = txt_cal.Text + "."; // 添加小數點
+        }
+
         private void btn_AC_Click(object sender, RoutedEventArgs e)
         {
             txt_cal.Text = "0";
+            firstNumber = 0f;
+            secondNumber = 0f;
+            operators = -1;
         }
     }
 }

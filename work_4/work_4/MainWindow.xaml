@@ -21,7 +21,7 @@
         <Button x:Name="btn_2" Content="2" HorizontalAlignment="Center" Height="39" Margin="0,285,0,0" VerticalAlignment="Top" Width="140" FontSize="26" FontWeight="Bold" Click="btn_2_Click"/>
         <Button x:Name="btn_1" Content="1" HorizontalAlignment="Left" Height="39" Margin="484,285,0,0" VerticalAlignment="Top" Width="138" FontWeight="Bold" FontSize="26" Click="btn_1_Click"/>
         <Button x:Name="btn_minus" Content="-" HorizontalAlignment="Left" Height="39" Margin="639,285,0,0" VerticalAlignment="Top" Width="139" FontWeight="Bold" FontSize="26" Click="btn_minus_Click"/>
-        <Button x:Name="btn_dot" Content="." HorizontalAlignment="Left" Height="39" Margin="177,372,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold"/>
+        <Button x:Name="btn_dot" Content="." HorizontalAlignment="Left" Height="39" Margin="177,372,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold" Click="btn_dot_Click"/>
         <Button x:Name="btn_0" Content="0" HorizontalAlignment="Center" Height="39" Margin="0,372,0,0" VerticalAlignment="Top" Width="140" FontWeight="Bold" FontSize="26" Click="btn_0_Click"/>
         <Button x:Name="btn_equal" Content="=" HorizontalAlignment="Left" Height="39" Margin="484,372,0,0" VerticalAlignment="Top" Width="138" FontSize="26" FontWeight="Bold" Click="btn_equal_Click"/>
         <Button x:Name="btn_plus" Content="+" HorizontalAlignment="Left" Height="39" Margin="639,372,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold" Click="btn_plus_Click"/>
