@@ -40,5 +40,61 @@ namespace work_4
                 txt_cal.Text = ""; //只有一行可以省略大括號
             txt_cal.Text += "1"; //簡化版本
         }
+
+        private void btn_2_Click(object sender, RoutedEventArgs e)
+        {
+            if (txt_cal.Text == "0")
+                txt_cal.Text = "";
+            txt_cal.Text += "2";
+        }
+
+        private void btn_3_Click(object sender, RoutedEventArgs e)
+        {
+            if (txt_cal.Text == "0")
+                txt_cal.Text = ""; //只有一行可以省略大括號
+            txt_cal.Text += "3";
+        }
+
+        private void btn_4_Click(object sender, RoutedEventArgs e)
+        {
+            if (txt_cal.Text == "0")
+                txt_cal.Text = ""; //只有一行可以省略大括號
+            txt_cal.Text += "4";
+        }
+
+        private void btn_5_Click(object sender, RoutedEventArgs e)
+        {
+            if (txt_cal.Text == "0")
+                txt_cal.Text = ""; //只有一行可以省略大括號
+            txt_cal.Text += "5";
+        }
+
+        private void btn_6_Click(object sender, RoutedEventArgs e)
+        {
+            if (txt_cal.Text == "0")
+                txt_cal.Text = ""; //只有一行可以省略大括號
+            txt_cal.Text += "6";
+        }
+
+        private void btn_7_Click(object sender, RoutedEventArgs e)
+        {
+            if (txt_cal.Text == "0")
+                txt_cal.Text = ""; //只有一行可以省略大括號
+            txt_cal.Text += "7";
+        }
+
+        private void btn_8_Click(object sender, RoutedEventArgs e)
+        {
+            if (txt_cal.Text == "0")
+                txt_cal.Text = ""; //只有一行可以省略大括號
+            txt_cal.Text += "8";
+        }
+
+        private void btn_9_Click(object sender, RoutedEventArgs e)
+        {
+            if (txt_cal.Text == "0")
+                txt_cal.Text = ""; //只有一行可以省略大括號
+            txt_cal.Text += "9";
+        }
     }
 }

@@ -9,16 +9,16 @@
     <Grid>
         <TextBox x:Name="txt_cal" HorizontalAlignment="Left" Height="58" Margin="177,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="601" FontSize="44" FontWeight="Bold" Text="0"/>
         <Button x:Name="btn_AC" Content="AC" HorizontalAlignment="Left" Height="39" Margin="10,104,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold"/>
-        <Button x:Name="btn_7" Content="7" HorizontalAlignment="Left" Height="39" Margin="177,104,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold"/>
-        <Button x:Name="btn_8" Content="8" HorizontalAlignment="Center" Height="39" Margin="0,104,0,0" VerticalAlignment="Top" Width="140" FontSize="26" FontWeight="Bold"/>
-        <Button x:Name="btn_9" Content="9" HorizontalAlignment="Left" Height="39" Margin="484,104,0,0" VerticalAlignment="Top" Width="138" FontSize="26" FontWeight="Bold"/>
+        <Button x:Name="btn_7" Content="7" HorizontalAlignment="Left" Height="39" Margin="177,104,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold" Click="btn_7_Click"/>
+        <Button x:Name="btn_8" Content="8" HorizontalAlignment="Center" Height="39" Margin="0,104,0,0" VerticalAlignment="Top" Width="140" FontSize="26" FontWeight="Bold" Click="btn_8_Click"/>
+        <Button x:Name="btn_9" Content="9" HorizontalAlignment="Left" Height="39" Margin="484,104,0,0" VerticalAlignment="Top" Width="138" FontSize="26" FontWeight="Bold" Click="btn_9_Click"/>
         <Button x:Name="btn_div" Content="/" HorizontalAlignment="Left" Height="39" Margin="639,104,0,0" VerticalAlignment="Top" Width="139" FontWeight="Bold" FontSize="26"/>
-        <Button x:Name="btn_4" Content="4" HorizontalAlignment="Left" Height="39" Margin="177,193,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold"/>
-        <Button x:Name="btn_5" Content="5" HorizontalAlignment="Center" Height="39" Margin="0,193,0,0" VerticalAlignment="Top" Width="140" FontSize="26" FontWeight="Bold"/>
-        <Button x:Name="btn_6" Content="6" HorizontalAlignment="Left" Height="39" Margin="484,193,0,0" VerticalAlignment="Top" Width="138" FontSize="26" FontWeight="Bold"/>
+        <Button x:Name="btn_4" Content="4" HorizontalAlignment="Left" Height="39" Margin="177,193,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold" Click="btn_4_Click"/>
+        <Button x:Name="btn_5" Content="5" HorizontalAlignment="Center" Height="39" Margin="0,193,0,0" VerticalAlignment="Top" Width="140" FontSize="26" FontWeight="Bold" Click="btn_5_Click"/>
+        <Button x:Name="btn_6" Content="6" HorizontalAlignment="Left" Height="39" Margin="484,193,0,0" VerticalAlignment="Top" Width="138" FontSize="26" FontWeight="Bold" Click="btn_6_Click"/>
         <Button x:Name="btn_times" Content="*" HorizontalAlignment="Left" Height="39" Margin="639,193,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold"/>
-        <Button x:Name="btn_3" Content="3" HorizontalAlignment="Left" Height="39" Margin="177,285,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold"/>
-        <Button x:Name="btn_2" Content="2" HorizontalAlignment="Center" Height="39" Margin="0,285,0,0" VerticalAlignment="Top" Width="140" FontSize="26" FontWeight="Bold"/>
+        <Button x:Name="btn_3" Content="3" HorizontalAlignment="Left" Height="39" Margin="177,285,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold" Click="btn_3_Click"/>
+        <Button x:Name="btn_2" Content="2" HorizontalAlignment="Center" Height="39" Margin="0,285,0,0" VerticalAlignment="Top" Width="140" FontSize="26" FontWeight="Bold" Click="btn_2_Click"/>
         <Button x:Name="btn_1" Content="1" HorizontalAlignment="Left" Height="39" Margin="484,285,0,0" VerticalAlignment="Top" Width="138" FontWeight="Bold" FontSize="26" Click="btn_1_Click"/>
         <Button x:Name="btn_minus" Content="-" HorizontalAlignment="Left" Height="39" Margin="639,285,0,0" VerticalAlignment="Top" Width="139" FontWeight="Bold" FontSize="26"/>
         <Button x:Name="btn_dot" Content="." HorizontalAlignment="Left" Height="39" Margin="177,372,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold"/>
