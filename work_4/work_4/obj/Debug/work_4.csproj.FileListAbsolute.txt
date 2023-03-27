@@ -1,0 +1,16 @@
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\bin\Debug\work_4.exe.config
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\bin\Debug\work_4.exe
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\bin\Debug\work_4.pdb
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\work_4.csproj.AssemblyReference.cache
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\work_4.csproj.SuggestedBindingRedirects.cache
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\MainWindow.g.cs
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\App.g.cs
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\work_4_MarkupCompile.cache
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\work_4_MarkupCompile.lref
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\MainWindow.baml
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\work_4.g.resources
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\work_4.Properties.Resources.resources
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\work_4.csproj.GenerateResource.cache
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\work_4.csproj.CoreCompileInputs.cache
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\work_4.exe
+C:\Users\vanne\OneDrive\文档\111-2 視窗程式設計\作業\111-2-work_4\work_4\work_4\obj\Debug\work_4.pdb
