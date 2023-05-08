@@ -25,6 +25,8 @@
         <Button x:Name="btn_0" Content="0" HorizontalAlignment="Center" Height="39" Margin="0,372,0,0" VerticalAlignment="Top" Width="140" FontWeight="Bold" FontSize="26" Click="btn_0_Click"/>
         <Button x:Name="btn_equal" Content="=" HorizontalAlignment="Left" Height="39" Margin="484,372,0,0" VerticalAlignment="Top" Width="138" FontSize="26" FontWeight="Bold" Click="btn_equal_Click"/>
         <Button x:Name="btn_plus" Content="+" HorizontalAlignment="Left" Height="39" Margin="639,372,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold" Click="btn_plus_Click"/>
+        <Button x:Name="btn_BS" Content="&lt;&lt;" HorizontalAlignment="Left" Height="39" Margin="10,193,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold" Click="btn_BS_Click"/>
+        <Button x:Name="btn_PC" Content="%" HorizontalAlignment="Left" Height="39" Margin="10,372,0,0" VerticalAlignment="Top" Width="139" FontSize="26" FontWeight="Bold" Click="btn_PC_Click"/>
 
     </Grid>
 </Window>

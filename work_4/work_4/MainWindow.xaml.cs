@@ -22,6 +22,7 @@ namespace work_4
     {
         float firstNumber, secondNumber;
         int operators = -1; //0:加, 1:減, 2:乘, 3:除, -1:重新設定
+        float finalResults = 0f;
 
         public MainWindow()
         {
@@ -128,9 +129,14 @@ namespace work_4
             operators = 3; // 選擇除號 "3 = 「/」"
         }
 
+        private void btn_PC_Click(object sender, RoutedEventArgs e)
+        {
+            finalResults = finalResults / 100;
+            txt_cal.Text = string.Format("{0:P2}", finalResults);
+        }
+
         private void btn_equal_Click(object sender, RoutedEventArgs e)
         {
-            float finalResults = 0f; // 宣告最後計算結果變數
             secondNumber = Convert.ToSingle(txt_cal.Text); // 把文字框轉換成浮點數，存入第二個數字的全域變數
 
             // 依照選擇進行運算 "加減乘除"
@@ -163,6 +169,16 @@ namespace work_4
             if (txt_cal.Text.IndexOf(".") == -1) // 確認文字框中沒有小數點
                 txt_cal.Text = txt_cal.Text + "."; // 添加小數點
         }
+
+        private void btn_BS_Click(object sender, RoutedEventArgs e)
+        {
+            if (txt_cal.Text.Length > 0) 
+            {
+                txt_cal.Text = txt_cal.Text.Substring(0, txt_cal.Text.Length - 1);
+            }
+
+        }
+
 
         private void btn_AC_Click(object sender, RoutedEventArgs e)
         {
